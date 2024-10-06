@@ -1,5 +1,4 @@
 import React from "react";
-import IMAGES from "../Images/photo";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
 import { Link } from "react-router-dom";
