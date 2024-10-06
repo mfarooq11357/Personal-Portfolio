@@ -61,7 +61,7 @@ function Home() {
       </div>
       <div className="picture-width mx-auto md:w-2/5 rounded-lg  md:inline">
         <img
-          src={IMAGES.image1}
+          src={"https://i.ibb.co/SByccbV/IMG.jpg"}
           alt="first image"
           className=" rounded-lg shadow-lg shadow-pink-200/30 "
         />
