@@ -1,0 +1,174 @@
+
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+body {
+  font-family: "Fredoka One", cursive;
+  font-family: "Kreon", serif;
+  background-color: #0c0a09;
+}
+a.active {
+  color: rgb(130 26 22);
+  font-weight: 700;
+}
+/* .projects{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 300px;
+} */
+
+.works-container {
+  padding: 2.5rem;
+  /* background-color: #181818; */
+  color: white;
+}
+
+.works-header .subtitle {
+  color: rgb(200 26 22);
+  font-size: 1.125rem;
+  font-weight: bold;
+  
+}
+
+.works-header .title {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  color: rgb(200 26 22);
+}
+
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.75rem;
+  margin-top: 5rem;
+}
+
+.project-card {
+  /* background-color: #2a2a2a; */
+  padding: 1.25rem;
+  border-radius: 1.25rem;
+  width: 100%;
+  max-width: 360px;
+}
+
+.project-image {
+  position: relative;
+  width: 100%;
+  height: 230px;
+  cursor: pointer;
+}
+
+.project-image .image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1.25rem;
+}
+
+.project-info .project-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  color: rgb(190 26 22);
+}
+
+.project-info .project-description {
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+  color: rgb(250, 227, 226);
+  
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.project-tags .tag {
+  font-size: 0.875rem;
+}
+
+.blue-text-gradient {
+  background: linear-gradient(90deg, #1e90ff, #00bfff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.green-text-gradient {
+  background: linear-gradient(90deg, #32cd32, #98fb98);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pink-text-gradient {
+  background: linear-gradient(90deg, #ff69b4, #ff1493);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+
+.button-properties{
+  color: #ffffff;
+  background-color: rgb(130 26 22);
+}
+.button-properties:hover{
+  color:rgb(130 26 22) ;
+  background-color: #ffffff;
+}
+.random{
+  border-color: rgb(130 26 22);
+}
+.random:hover{
+  background-color: rgb(130 26 22);
+
+}
+.random1{
+  color: rgb(130 26 22);
+  border-color: rgb(130 26 22);
+}
+
+
+
+
+.navbarrr{
+color: rgb(160, 26, 22);  
+}
+ .navbarrr:hover{
+  font-weight: bold;
+  background-color: rgb(250, 227, 226);
+  color: rgb(160, 26, 22); 
+
+}
+.profile-icons{
+  color: rgb(160, 26, 22);  
+}
+.background-profile-icons{
+  background-color: rgb(160, 26, 22);  
+}
+.profile-icons-border:hover{
+  border: 2px solid rgb(160, 26, 22);
+}
+
+.text-show{
+  color: rgb(194, 77, 73);
+}
+.picture-width{
+  width: 70%;
+}
+@media (max-width: 768px) { /* Adjust this value to your mobile breakpoint */
+  .margin-text-main {
+      margin-top: 44px;
+  }
+}
