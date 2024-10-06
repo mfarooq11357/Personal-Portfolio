@@ -10,16 +10,16 @@ function Contact() {
     <div className="flex flex-col justify-center items-center  h-screen">
       <div className="  flex mb-48 flex-col justify-center items-center ">
         <div className="flex justify-center items-center mb-20">
-          <HiOutlinePhone className=" random1  text-5xl mr-3" />
-          <span className="text-pink-50 text-5xl">(+92) 3427561758</span>
+          <HiOutlinePhone className=" random1  text-3xl mr-3" />
+          <span className="text-pink-50 text-3xl">(+92) 3427561758</span>
         </div>
         <div className="flex justify-center items-center mb-20">
-          <HiOutlineMail className=" random1 text-5xl mr-3" />
-          <span className="text-pink-50 text-5xl">mfarooq11357@gmail.com</span>
+          <HiOutlineMail className=" random1 text-3xl mr-3" />
+          <span className="text-pink-50 text-3xl">mfarooq11357@gmail.com</span>
         </div>
         <div className="flex justify-center items-center mb-20">
-          <HiOutlineLocationMarker className=" random1  text-5xl mr-3" />
-          <span className="text-pink-50 text-5xl">Pakistan, Punjab, Gujrat</span>
+          <HiOutlineLocationMarker className=" random1  text-3xl mr-3" />
+          <span className="text-pink-50 text-3xl">Pakistan, Punjab, Gujrat</span>
         </div>
         <div>
           <ul className="flex flex-row justify-start align-middle mt-12 ">
