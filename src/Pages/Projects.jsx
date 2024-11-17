@@ -7,6 +7,18 @@ import { Tilt } from "react-tilt";
 
 const projects = [
   {
+    name: "Shop Smart",
+    description:
+      "An intuitive e-commerce platform where users can explore and purchase, while admin seamlessly manage inventory and sales data.",
+    tags: [
+      { name: "reactjs", color: "blue-text-gradient" },
+      { name: "Mongodb", color: "green-text-gradient" },
+      { name: "nodejs", color: "pink-text-gradient" },
+    ],
+    image: "https://i.ibb.co/QvmGc3N/e-com.png", // Replace with your e-commerce image link
+    hosted_link: "https://e-commerce-project-frontend-nine.vercel.app/", // Update with your hosting link
+},
+  {
     name: "Vote Smart",
     description:
       "A dynamic voting app where users can vote for candidates, while admins manage candidate details in real time, ensuring an engaging experience.",
@@ -40,7 +52,7 @@ const projects = [
       { name: "CSS", color: "pink-text-gradient" },
     ],
     image: "https://i.ibb.co/nCjtysq/zealWeb.png",
-    hosted_link: "/",
+    hosted_link: "https://enchantedphoenix.co.uk/",
   },
   {
     name: "ZCars Rental",
@@ -64,7 +76,7 @@ const projects = [
       { name: "HTML", color: "pink-text-gradient" },
     ],
     image: "https://i.ibb.co/FH5m9Tv/rollWeb.png",
-    hosted_link: "/",
+    hosted_link: "https://washmyride.co.uk/",
   },
   {
     name: "Bubble Game",
